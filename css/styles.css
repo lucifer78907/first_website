@@ -1,3 +1,26 @@
+
 body{
-    background-color: blue;
+    margin: 0;
+    /* margin-left: 0;
+    margin-right: 0;
+    margin-top: 0; */
+}
+h1{
+    margin-top: 0;
+}
+.top_container{
+    background-color: #CDF0EA;
+}
+.middle_container{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+.bottom_container{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+}
+.pro{
+    text-decoration: underline;
 }
