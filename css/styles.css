@@ -1,5 +1,4 @@
-
-body{
+body {
     margin: 0;
     /* margin-left: 0;
     margin-right: 0;
@@ -8,39 +7,88 @@ body{
     font-family: 'Merriweather', serif;
 
 }
+
 /* font size are inherited*/
-h1{
+h1 {
     margin: 75px auto 0 auto;
     font-family: 'Sacramento', cursive;
     /* width: 10%;
     margin: 0 auto 0 auto; 0 auto works same */
-    font-size: 5.625rem;/*100%==1em=16px*//*use rem to ignore inheritance*/
+    font-size: 5.625rem;
+    /*100%==1em=16px*/
+    /*use rem to ignore inheritance*/
+    color: #66BFBF;
 }
-h2{
+
+h2 {
     font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
 }
-h3{
+
+h3 {
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
 }
-.top_container{
+
+hr{
+    width: 10%;
+    border-style: dotted none none none;
+    border-width: 5px;
+    border-color: grey;
+    margin: 75px auto 75px auto;
+}
+.top_container {
     background-color: #CDF0EA;
     position: relative;
     padding-top: 100px;
 }
 
-.pro{
+.pro {
     text-decoration: underline;
 }
-.top-cloud{
+
+.top-cloud {
     position: absolute;
     right: 300px;
     top: 50px;
     /* margin-top: 200px;
-    margin-left: 400px; */ /*alternate way to do so*/
+    margin-left: 400px; */
+    /*alternate way to do so*/
 }
-.bottom-cloud{
+
+.bottom-cloud {
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+
+.footer-link {
+    color: #11999E;
+}
+.skill-row{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+.coding{
+    width:35%;
+    float: left;
+    margin: auto 30px auto auto;
+}
+.cat-image{
+    width: 15%;
+}
+.other-skill{
+    width: 35%;
+    float: right;  /*use clear as some anti-float*/
+    /*dont use float for positioning*/
+    margin-left: 30px;
+}
+#test{
+    clear: right;
+}
+#para{
+    line-height: 2;
 }
