@@ -77,6 +77,7 @@ hr{
 
 .footer-link {
     color: #11999E;
+    padding-right: 100px;
 }
 .skill-row{
     margin: 100px auto 100px auto;
@@ -104,6 +105,12 @@ hr{
 #para{
     line-height: 2;
     margin-bottom: 100px;
+}
+.two{
+    padding-right: 70px;
+}
+.three{
+    padding-right: 0;
 }
 .BUTTON_SFN {
    -webkit-border-radius: 20px;
